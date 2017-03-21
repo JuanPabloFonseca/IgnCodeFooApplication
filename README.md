@@ -1,6 +1,6 @@
 # IgnCodeFooApplication
 
-At the time I write this, the deadline for the Application has already passed. However, I feel appropiate for me to describe the repository a bit, for IGN and for anybody who stumbles upon it.
+At the time I write this, the deadline for the Application has already passed. However, I feel that it is appropiate to describe the repository a bit, for IGN and for anybody who stumbles upon it.
 
 In the repository you can find two folders, one called numberboggle (which corresponds to question 3 of the application), and another one weirdly called pruebaleerjsondeurl (which corresponds to question 4, first option, of the application). For those of you who do not know what those questions are, you can go to http://www.ign.com/code-foo/2017/ where the questions are described.
 
