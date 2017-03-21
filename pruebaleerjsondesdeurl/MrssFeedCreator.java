@@ -26,6 +26,14 @@ public class MrssFeedCreator {
     public static void main(String[] args){
         //first execute the IgnDatabaseCreator so that this can work
         try{
+            
+            System.out.println("Loading driver...");
+            try {
+                Class.forName("com.mysql.jdbc.Driver");
+                System.out.println("com.mysql.jdbc.Driver is loaded");
+            } catch (ClassNotFoundException e) {
+                throw new IllegalStateException("Driver not found", e);
+            }
             String urlDB = "jdbc:mysql://localhost:3306/ignmedia?zeroDateTimeBehavior=convertToNull";
             String username = "root";
             String password = "";//modify this 
@@ -49,10 +57,6 @@ public class MrssFeedCreator {
             writer.println("<link>http://www.ign.com</link>");
             writer.println("<description>IGN videos and articles</description>");
             
-            sql = "SELECT COUNT(*) FROM ELEMENTS as n";
-            rs = state.executeQuery(sql);
-            rs.next(); 
-            int numElements = rs.getInt("n");
             
             
             sql = "SELECT * FROM METADATAA";
