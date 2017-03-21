@@ -83,7 +83,7 @@ public class MrssFeedCreator {
                 writer.println("</item>");
             }
             
-            writer.println("<channel>");
+            writer.println("</channel>");
             writer.println("</rss>");
             
             
