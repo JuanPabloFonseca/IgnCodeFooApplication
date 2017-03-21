@@ -6,4 +6,10 @@ In the repository you can find two folders, one called numberboggle (which corre
 
 All the code is mainly in Java (with a bit of SQL and XML hidden inside some Strings).
 
+For questions 1 and 2 of the application,
+1. The link to my video is https://www.youtube.com/watch?v=UgYa29_7syc
+2. The link to my Lincoln Log reasoning is https://docs.google.com/document/d/1beBAIdkaiT0oeFRzjO_0lYDu5p-SZ30k87ieuEk7ZXU/edit?usp=sharing
+
 Feel free to ask me any questions or use the code!! Have a nice day!!
+
+
